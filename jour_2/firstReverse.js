@@ -1,12 +1,14 @@
-'use strict'
-var string = 'konexio'
+function firstReverse(str) {
+    var result = '';
 
-//function firstReverse(str) {
-   // for (var i = 0; i <=max; i--) {
-        result 
+    for (var i = str.length; i >= 0; i--) {
+        result += str.charAt(i);
+    }
 
-    //return firstReverse('str');
+    return result;
+}
 
+console.log(firstReverse('Hello World and Coders'));
+console.log(firstReverse('konexio'));
+console.log(firstReverse('I Love Code'));
 
-//}
-//console.log(firstReverse(str));

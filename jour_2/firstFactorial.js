@@ -1,21 +1,20 @@
 'use strict'
 
-'use strict'
-var num = 4
 
 
 function firstFactoriel(num) {
-    var result = 0;
+    var result = 1;
     
-    for (var i= 0; i<= num; i++) {
+    for (var i= 1; i<= num; i++) {
         
-        result = result*i
+        result *= i;
         
     }
-    return result
+    return result;
 
    
 
 }
 
-console.log(firstFactoriel(num))
+console.log(firstFactoriel(4))
+//console.log(firstFactoriel(8))

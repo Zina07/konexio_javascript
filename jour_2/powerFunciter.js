@@ -8,7 +8,7 @@ function powerFunciter(num, power) {
 
 }
     for (var i = 0; i < 5; i++) {
-        result = num;
+        result = num;  
     }   
     return result;
 
