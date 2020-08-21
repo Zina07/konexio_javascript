@@ -12,6 +12,5 @@ function powerFunciter(num, power) {
     }   
     return result;
 
-    
-
+    g
 console.log(powerFunciter(num, power));
