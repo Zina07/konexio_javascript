@@ -1,3 +1,3 @@
 var example
 example = (987654321);
-console.log (example);
+console.log(example);
