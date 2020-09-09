@@ -38,18 +38,19 @@ while (saisie != a) {
 }*/
 
 var prompt = require ('prompt');
-
-var a = Math.round(Math.random() * (100 + 1));
-var findNbr = 52;
-var saisie = parceInt(displayPrompt("Quel est le nombre"));
 var min = 0;
 var max = 100;
+var a = Math.round(Math.random() * (max - min + 1));
+console.log(a);
+
+var saisie = parceInt(displayPrompt("Quel est le nombre"));
+
 
 prompt.start();
 
 function displayPrompt() {
-  Math.round(Math.random()) * (max - min + 1));
-  console.log(findNbr)
+  
+ 
 
   if (saisie > a) {
     console.log('c\'est moins !');
