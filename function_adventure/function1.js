@@ -1,5 +1,5 @@
 
- var str = '';
+var str = '';
 
 function displaySomething(str) {
   return str;

@@ -15,10 +15,3 @@ console.log('expr : ', result2);
 console.log('expr : ', result)
  
 
-/*function doSomething() {
-    return 'Yeah !';
-}
-
-var result = doSomething();
-
-console.log(result);*/
