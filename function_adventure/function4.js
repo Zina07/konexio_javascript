@@ -10,6 +10,9 @@ console.log(calculateVariable(12))
 console.log(calculateVariable(7))
 console.log(calculateVariable(147))
 console.log(calculateVariable(-14)) 
+
+
+/*__________________________________________________
 /* Resultat attendu :
 22
 ➜  function_adventure git:(master) ✗ node function4.js 
@@ -17,4 +20,4 @@ console.log(calculateVariable(-14))
 17
 157
 -4 
-*/
+_____________________________________________________*/

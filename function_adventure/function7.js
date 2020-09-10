@@ -1,20 +1,19 @@
 
-function getHello() {
-    return 'Hello' + 'Konexio';
-   
+var expression = 'hello'
+
+function getHello (str) {
+    var concatenation
+    concatenation = expression + ' ' + str
+    return concatenation
 }
 
+var result = getHello('Konexio')
+var result2= getHello('Jean')
 
-console.log(result);
-
-    var result = getHello();
-    
-    var str = 'hello';
-    var result2 = 'Konexio';
-    var result1 = 'Jean';
-    var resultA = (getHello() + result2);
-    var resultB = (getHello() + result1);
-
+var expr = process.argv.slice(2);
+console.log('expr : ', result2);
+console.log('expr : ', result)
+ 
 
 /*function doSomething() {
     return 'Yeah !';
