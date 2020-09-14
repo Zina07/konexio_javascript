@@ -3,10 +3,11 @@ var arr = [{ firstName : 'Daniel', surname : 'Beckham'},
          
 
 var arr2 = arr.map(MyobjList);
+var c = 'fulname'
 
     function MyobjList(list) {
-       
-        return  {'fulname' : list.firstName + ' ' + list.surname };
+      
+        return  {'Fulname' : list.firstName + ' ' + list.surname };
         
 
     }
