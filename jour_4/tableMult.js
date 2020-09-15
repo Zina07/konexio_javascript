@@ -17,7 +17,38 @@ function tableMult(num) {
 }
 
 
-
+var mult = 3
+​
+    for (var i = 1; i <= mult + 7; i++) {
+​
+        var result
+​
+        result = i * mult
+​
+        console.log(i + "*" + mult + "=" + result)
+​
+    }
+​
+​
+/* A TESTER
+​
+function tableMult(mult) {
+​
+    var mult = parseInt(process.argv[2])
+​
+    for (var i = 1; i <= mult + 7; i++) {
+​
+        var result
+​
+        result = i * mult
+​
+        console.log(i + "*" + mult + "=" + result)
+​
+    }
+}
+console.log(tableMult(parseInt(process.argv[2])))
+​
+/*NE PAS OUBLIER DE RAJOUTER 3 APRES LE NODE TABLEMULT.JS*/
 
 
 
