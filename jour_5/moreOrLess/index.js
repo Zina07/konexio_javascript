@@ -7,28 +7,29 @@ console.log(a);
 
 prompt.start();
 
-function displayPrompt() {
-  prompt.get({ name: 'inputUser', description:'Quel est le nombre mystère ? '},
+function displayPrompt() { 
+  prompt.get({ name: 'inputUser', description: 'Quel est le nombre mystère ? ' },
     function (err, result) {
       var saisie = parseInt(result.inputUser)
-      console.log(saisie)
-      //console.log(typeof saisie)
-      
-      if (saisie > a) {
-        console.log('c\'est moins !');
-        displayPrompt;
-      }
-      if (saisie < a) {
-        console.log('c\'est plus !');
-        displayPrompt;
+      //console.log(saisie)
+      //console.log(typeof saisie) 
 
-      } else if (saisie === a) {
+      if (saisie === a) {
         console.log('Bravo, vous avez trouvez le nombre mystère !!!');
         return;
-      };
+
+      } else if (saisie > a) {
+        console.log('c\'est moins !');
+        displayPrompt();
+      } if (saisie < a) {
+        console.log('c\'est plus !');
+        displayPrompt();
+
+      }
     }
-  )
-};
+  );
+
+}
 
 displayPrompt();
 
